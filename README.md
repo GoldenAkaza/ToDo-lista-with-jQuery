@@ -29,10 +29,20 @@ Tähän myös versioon on lisätty muutamia toimintoja, joita aikaisemmassa proj
 Picture by Jasper Huhtala.
 
 ## Technologies
-Sovellukseen käytin HTML, Css ja JavaScript.
-HTML on alusta, jossa sovellus toimii.
-Css käytin tyylittelyä varten.
-JavaScriptiä, että sovellus toimii miten sen pitäisi toimia.
+
+Html oli käytetty sovelluksen rakenteen määrittämiseksi.
+
+Bootstrappia oli käytetty antamaan valmiita tyylityksiä ja responsiivisuutta, kuten syöttökenttä ja lomakkeet.
+
+CSS oli käyttetty omia tyylityksiä, joita bootstrap ei tarjoa suoraan, mukautetut värit ja varjostukset.
+
+Javascript on se ohjelmointikieli, joka antaa interaktiivisuuden sovellukseen.
+
+jQuery oli käytetty tekemään DOM-manipulointia ja tapahtumankäsittelyä.
+ - Dom-elementtien hakeminen ja muokkaaminen esim. $('#todo-input').
+ - Fade-in/fade-out -efektien toteuttaminen.
+ - Tapahtumankäsittely, kuten (on('click')).
+
 
 ## Setup
 Kaksi tapaa käyttää tätä sovellusta.
