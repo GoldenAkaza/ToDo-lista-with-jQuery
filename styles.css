@@ -1,0 +1,105 @@
+body {
+    background-color: #b0bfd0; /* Tummempi vaaleanharmaa tausta */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background: linear-gradient(135deg, #ffffff, #eef2f6); /* Kevyt harmaanvalkoinen gradientti */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    border-radius: 12px;
+    position: relative;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0056b3; /* Tumma sininen otsikko */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#todo-input {
+    border: 2px solid #007bff; /* Sininen reunaviiva */
+    border-radius: 8px;
+}
+
+#todo-input:focus {
+    outline: none;
+    border-color: #28a745; /* Vihreä korostus kun aktiivinen */
+    box-shadow: 0px 0px 8px rgba(40, 167, 69, 0.5);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+    border-radius: 8px;
+}
+
+.btn-primary.active,
+.btn-primary:hover {
+    background-color: #0056b3; /* Tumma sininen hover */
+    border-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+    border-radius: 50px; /* Pyöreä nappi */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Tummempi punainen hover */
+    border-color: #c82333;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+    border-radius: 8px;
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Tummempi vihreä hover */
+    border-color: #1e7e34;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease-in-out, background-color 0.3s;
+    padding: 10px 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.list-group-item:hover {
+    background: #e9f5ff; /* Kevyt sininen hover */
+    transform: scale(1.02);
+}
+
+.button-group-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-group-container .btn-group {
+    gap: 10px; /* Lisää väliä painikkeiden välillä */
+}
+
+#clear-completed-btn {
+    position: absolute;
+    top: 20px; /* Oikea yläkulma */
+    right: 20px;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#error-message {
+    font-size: 0.9rem;
+    color: #dc3545; /* Punaista virheille */
+}
