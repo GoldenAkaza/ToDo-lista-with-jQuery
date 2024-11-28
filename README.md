@@ -19,10 +19,12 @@ https://github.com/user-attachments/assets/e5659b1d-5a9c-4c81-b33a-58c6977d1a9b
 - [Credits](#credits)
 
 ## About The App
-[ToDo-lista] on yksinkertainen sovellus, johon voit kirjoittaa tehtäviä joita aiot tehdä ja merkitä ne valmiiksi tai poistaa.
+[ToDo-lista-with-jQuery] on tehty aiemman projektin pohjasta [ToDo-lista] ja se toimii samalla tavalla eli yksinkertainen sovellus, johon voit kirjoittaa tehtäviä joita aiot tehdä ja merkitä ne valmiiksi tai poistaa.
+Tähän myös versioon on lisätty muutamia toimintoja, joita aikaisemmassa projekttissa ei ollut, kuten suodattaa "aktiiviset" ja "valmiit" tehtävät, sekä poistaa kaikki "valmiit" tehtävät.
 
 ## Screenshots
-![image](https://github.com/user-attachments/assets/2dc86179-9784-477b-8137-b002901db85c)
+![image](https://github.com/user-attachments/assets/1e4f1225-7a31-4d0d-b2b7-c9c2394baced)
+
 
 Picture by Jasper Huhtala.
 
