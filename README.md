@@ -57,4 +57,4 @@ tai
 ToDo-lista on tällä hetkellä valmis.
 
 ## Credits
-- ChatGPT:ä Käytin aputyökaluna selvittää ongelmia, kun tuli ongelma saada fadeOut() toiminta toimimaan, kun oli suodattanut "aktiiveset" tai "valmiit" tehtävät.
+- ChatGPT:ä Käytin aputyökaluna selvittää ongelmia, kun tuli ongelma saada fadeOut() toiminta toimimaan, kun tehtävät oli suodatettu "aktiiveset" tai "valmiit" tehtäviin.
