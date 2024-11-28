@@ -6,10 +6,12 @@ $(document).ready(function () {
     const $filterButtons = $('#filter-buttons button'); // Suodatuspainikkeet (Kaikki, Aktiiviset, Valmiit)
     const $clearCompletedBtn = $('#clear-completed-btn'); // Nappi valmiiden tehtävien poistamiseen
 
+    
     // Lataa tallennetut tehtävät selaimen localStoragesta tai luo tyhjä lista
     let todos = JSON.parse(localStorage.getItem('todos')) || [];
     renderTodoList(); // Piirretään tehtävät näkyviin sivun latauksen yhteydessä
 
+    
     // Lomakkeen lähetys, kun käyttäjä lisää uuden tehtävän
     $form.on('submit', function (e) {
         e.preventDefault(); // Estetään lomakkeen oletustoiminto (sivun uudelleenlataus)
@@ -28,11 +30,12 @@ $(document).ready(function () {
             };
             todos.push(todoItem); // Lisätään uusi tehtävä listaan
             localStorage.setItem('todos', JSON.stringify(todos)); // Tallennetaan localStorageen
-            renderTodoItem(todoItem, true); // Piirretään uusi tehtävä animaation kera
+            renderTodoItem(todoItem, true);
             $input.val(''); // Tyhjennetään syöttökenttä
         }
     });
 
+    
     // Suodatuspainikkeiden toiminta (Kaikki, Aktiiviset, Valmiit)
     $filterButtons.on('click', function () {
         $filterButtons.removeClass('active'); // Poistetaan aktiivinen luokka kaikilta painikkeilta
@@ -40,6 +43,7 @@ $(document).ready(function () {
         renderTodoList(); // Piirretään tehtävät suodattimen perusteella
     });
 
+    
     // Valmiiden tehtävien poistaminen
     $clearCompletedBtn.on('click', function () {
         const completedTodos = todos.filter(todo => todo.completed); // Haetaan kaikki valmiit tehtävät
@@ -60,6 +64,7 @@ $(document).ready(function () {
         }
     });
 
+    
     // Piirretään tehtävälista näkyviin
     function renderTodoList() {
         const activeFilter = $('#filter-buttons .active').data('filter'); // Haetaan aktiivinen suodatin (Kaikki/Aktiiviset/Valmiit)
@@ -77,6 +82,7 @@ $(document).ready(function () {
         });
     }
 
+    
     // Piirretään yksittäinen tehtävä
     function renderTodoItem(todo, useFadeIn) {
         // Luodaan listaelementti
@@ -116,6 +122,7 @@ $(document).ready(function () {
                 });
             });
 
+        
         $li.append($taskText, $completeBtn, $deleteBtn); // Lisätään tehtävän nimi ja painikkeet listaelementtiin
 
         if (useFadeIn) {
