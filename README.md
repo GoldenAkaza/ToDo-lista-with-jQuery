@@ -47,16 +47,14 @@ jQuery oli käytetty tekemään DOM-manipulointia ja tapahtumankäsittelyä.
 ## Setup
 Kaksi tapaa käyttää tätä sovellusta.
 
-- Lataa kaikki tiedostot and avaa index.html selaimeesi
+- Lataa kaikki tiedostot ja avaa index.html selaimeesi
 
 tai
 
 - voit myös käyttää tätä linkkiä, jos et halua ladata tiedostoja. (https://todo-lista-e1df41.netlify.app/)
 
 ## Status
-ToDo-lista on tällä hetkellä valmis, mutta siihen voi lisätä toimintoja tulevaisuudessa.
+ToDo-lista on tällä hetkellä valmis.
 
 ## Credits
-List of contriubutors and sources you used during the project. Also mention if you used ChatGPT or other AI tools when coding and explain how did you benefit from them.
-- ProMaker Dev (https://youtu.be/fYTTUBa-lPc?si=sTadfls8utxHiGnl) LocalStorage mitä se on ja miten se toimii. 
-- Chat GPT:ä Käytin aputyökaluna selvittää ongelmia, kuten miten saada yliviivaa tehtävät listalta ilman ettei se ylivaa napit samalla.
+- ChatGPT:ä Käytin aputyökaluna selvittää ongelmia, kun tuli ongelma saada fadeOut() toiminta toimimaan, kun oli suodattanut "aktiiveset" tai "valmiit" tehtävät.
