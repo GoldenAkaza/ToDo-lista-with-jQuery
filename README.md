@@ -2,10 +2,12 @@
 Projekti nimi "ToDo-lista-with-jQuery" ja tekijä on Jasper Huhtala.
 
 ## Demo link:
-Tässä löytyy lyhyt demo video, kuinka tämä sovellus toimii
+Tässä löytyy lyhyt demo video, kuinka tämä sovellus toimii.
 
 
-https://github.com/user-attachments/assets/e5659b1d-5a9c-4c81-b33a-58c6977d1a9b
+
+https://github.com/user-attachments/assets/31477166-a7f5-4ee9-80e4-22cd55e6bbb6
+
 
 
 ## Table of Content:
